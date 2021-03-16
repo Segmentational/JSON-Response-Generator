@@ -7,7 +7,7 @@
 API endpoint is available at https://mockend.com/cloud-hybrid/json-response-generator/graphql
 - Formatted: `https://mockend.com/cloud-hybrid/json-response-generator/graphql`
 
-## Example ##
+### Example ###
 
 `graphql` has a special type of formatted JSON; for example:
 
@@ -52,3 +52,9 @@ a JSON response:
   }
 }
 ```
+
+## GitLab Implementation ##
+
+Please visit [***Gitlab's Official Documentation***](https://docs.gitlab.com/ee/api/graphql/getting_started.html)
+for additional information on Gitlab `graphql` usage & APIs.
+
