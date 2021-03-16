@@ -11,7 +11,7 @@ Example Query Request:
 
 ```graphql
 { 
-    posts(limit: 100) {
+    posts(limit: 1) {
         title
     } 
 }
@@ -31,6 +31,20 @@ which assumes a `.mockend.json` file:
   "Comment": {
     "body": "string",
     "post": "Post"
+  }
+}
+```
+
+finally, response returning as
+
+```json
+{
+  "data": {
+    "posts": [
+      {
+        "title": "jIMYipLrgi"
+      }
+    ]
   }
 }
 ```
