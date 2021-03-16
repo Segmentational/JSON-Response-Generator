@@ -7,7 +7,9 @@
 API endpoint is available at https://mockend.com/cloud-hybrid/json-response-generator/graphql
 - Formatted: `https://mockend.com/cloud-hybrid/json-response-generator/graphql`
 
-Example Query Request:
+## Example ##
+
+`graphql` has a special type of formatted JSON; for example:
 
 ```graphql
 { 
@@ -17,7 +19,8 @@ Example Query Request:
 }
 ```
 
-which assumes a `.mockend.json` file:
+The exact function + arguments are dependent upon another
+JSON file, `.mockend.json`:
 
 ```json
 {
@@ -35,7 +38,9 @@ which assumes a `.mockend.json` file:
 }
 ```
 
-finally, response returning as
+which allows queries to then be performed. For example, using the
+aforementioned `.mockend.json` file & `graphql` query will return
+a JSON response:
 
 ```json
 {
