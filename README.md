@@ -9,7 +9,7 @@ API endpoint is available at https://mockend.com/cloud-hybrid/json-response-gene
 
 Example Query Request:
 
-```json
+```graphql
 { 
     posts(limit: 100) {
         title
