@@ -38,8 +38,7 @@ JSON file, `.mockend.json`:
 }
 ```
 
-which allows queries to then be performed. For example, using the
-aforementioned `.mockend.json` file & `graphql` query will return
+Finally, using the aforementioned `.mockend.json` file & `graphql` query will return
 a JSON response:
 
 ```json
