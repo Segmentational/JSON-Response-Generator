@@ -56,5 +56,5 @@ a JSON response:
 ## GitLab Implementation ##
 
 Please visit [***Gitlab's Official Documentation***](https://docs.gitlab.com/ee/api/graphql/getting_started.html)
-for additional information on Gitlab `graphql` usage & APIs.
+for additional information on Gitlab's `graphql` usage & APIs.
 
