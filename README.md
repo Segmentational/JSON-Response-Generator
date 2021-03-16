@@ -13,7 +13,7 @@ Example Query Request:
 { 
     posts(limit: 100) {
         title
-	  } 
+    } 
 }
 ```
 
